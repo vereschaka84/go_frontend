@@ -25,6 +25,6 @@ p {
 }
 
 h1::before {
-	content: url(../img/icons/serp-molot.png);
+	content: url(../images/icons/serp-molot.png);
 	margin-right: 5px;
 }
