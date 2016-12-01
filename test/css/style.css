@@ -9,6 +9,11 @@ h1 {
 	margin-bottom: 10px;
 }
 
+h1::before {
+	content: url(../images/icons/serp-molot.png);
+	margin-right: 5px;
+}
+
 h2 {
 	font-family: Arial, sans-serif;
 	font-size: 160%;
@@ -20,11 +25,35 @@ h2 {
 p {
 	font-family: Arial, sans-serif;
 	margin-bottom: 20px;
+	padding:  20px 30px;
+	border: 5px solid black;
 	line-height: 1.5em;
-
+	background-color: rgb(100,100,100);
+	width: 600px;
 }
 
-h1::before {
-	content: url(../images/icons/serp-molot.png);
-	margin-right: 5px;
+a {
+	background-color: green;
+	color: white;
+	margin: 10px;
+	padding: 20px;
+	display: block;
+	width: 200px;
+	height: 100px;
+}
+
+.box {
+	width: 200px;
+	height: 100px;
+	background-color: green;
+	margin: 20px 10px;
+	border: 1px solid black;
+}
+
+.big-box {
+	width: 200px;
+	height: 100px;
+	background-color: green;
+	border: 1px solid black;
+	margin: 30px 10px;
 }
