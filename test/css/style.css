@@ -1,59 +1,89 @@
 body {
-	margin: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #F9F9F9;
+    margin: 10px;
+}
+
+.main {
+    width: 1065px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.logo,
+.top_menu,
+.content {
+    margin-bottom: 40px;
+}
+
+.logo {
+    background: #ffffff url("../images/logo.png") no-repeat;
+    height: 40px;
+}
+
+.top_menu {
+    height: 40px;
+    background-color: #4A4A4A;
+}
+
+.top_menu li {
+    float: left;
+    margin-right: 40px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.top_menu li a {
+    display: block;
+    color: #ffffff;
+    padding: 12px 25px;
+    text-shadow: 1px 1px #000000;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid #4A4A4A;
+}
+
+.top_menu a:hover,
+.top_menu a:active {
+    background-color: #363636;
+    border: 1px solid black;
+}
+
+nav {
+    float: left;
+    width: 200px;
+    padding-left: 15px;
+    background-color: yellow;
+}
+
+section {
+    margin-left: 220px;
+    padding-right: 20px;
+    background-color: red;
+}
+
+footer {
+    height: 40px;
+    background-color: #E2E2E2;
+}
+
+footer li {
+    display: inline;
+    margin-right: 40px;
+    padding: 10px 20px;
+    color: #000000;
+}
+
+.copyright {
+    float: right;
+    margin-right: 40px;
 }
 
 h1 {
-	font-family: Arial, sans-serif;
-	font-size: 200%;
-	font-weight: bold;
-	margin-bottom: 10px;
-}
-
-h1::before {
-	content: url(../images/icons/serp-molot.png);
-	margin-right: 5px;
-}
-
-h2 {
-	font-family: Arial, sans-serif;
-	font-size: 160%;
-	font-weight: bold;
-	color: rgb(55,55,200);
-	margin-bottom: 10px;
-}
-
-p {
-	font-family: Arial, sans-serif;
-	margin-bottom: 20px;
-	padding:  20px 30px;
-	border: 5px solid black;
-	line-height: 1.5em;
-	background-color: rgb(100,100,100);
-	width: 600px;
-}
-
-a {
-	background-color: green;
-	color: white;
-	margin: 10px;
-	padding: 20px;
-	display: block;
-	width: 200px;
-	height: 100px;
-}
-
-.box {
-	width: 200px;
-	height: 100px;
-	background-color: green;
-	margin: 20px 10px;
-	border: 1px solid black;
-}
-
-.big-box {
-	width: 200px;
-	height: 100px;
-	background-color: green;
-	border: 1px solid black;
-	margin: 30px 10px;
+    font-family: Arial, sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
