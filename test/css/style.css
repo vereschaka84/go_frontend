@@ -1,20 +1,22 @@
 body {
     font-family: Arial, sans-serif;
+    font-size: 13px;
     background-color: #F9F9F9;
     margin: 10px;
 }
 
 .main {
-    width: 1065px;
+    width: 1060px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 35px 68px 0 26px;
     background-color: #ffffff;
     box-sizing: border-box;
 }
 
-.logo,
 .top_menu,
+.logo,
 .content {
+    width: 966px;
     margin-bottom: 40px;
 }
 
@@ -28,7 +30,7 @@ body {
     background-color: #4A4A4A;
 }
 
-.top_menu li {
+.top_menu li, footer li {
     float: left;
     margin-right: 40px;
     min-width: 100px;
@@ -37,12 +39,13 @@ body {
 
 .top_menu li a {
     display: block;
+    height: 15px;
     color: #ffffff;
-    padding: 12px 25px;
-    text-shadow: 1px 1px #000000;
+    padding: 10px 25px 13px 25px;
     text-decoration: none;
     font-size: 14px;
     border: 1px solid #4A4A4A;
+
 }
 
 .top_menu a:hover,
@@ -53,37 +56,85 @@ body {
 
 nav {
     float: left;
-    width: 200px;
-    padding-left: 15px;
-    background-color: yellow;
+    width: 240px;
+    cursor: pointer;
+    border: 1px solid #c8c8c8;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    background: #ffffff;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 15px auto 22px 15px;
+}
+
+nav li:hover {
+    background-color: #F9F9F9;
+}
+
+nav li a {
+    display: block;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 1px;
+    text-align: left;
+    text-decoration: none;
+    color: #656363;
+}
+
+nav li a:hover {
+    padding-left: 36px;
+    color: #000000;
 }
 
 section {
-    margin-left: 220px;
-    padding-right: 20px;
-    background-color: red;
+    margin-left: 311px;
+    display: block;
+    width: 654px;
+}
+
+section p {
+    margin-top: 22px;
+    font-family: Arial, sans-serif;
+    line-height: 21px;
+}
+
+figure {
+    display: block;
+    width: 654px;
+    height: auto;
+    background-color: #ffffff;
+    border: solid 1px #c8c8c8;
+}
+
+img.velo {
+    padding: 31px 0 62px 65px;
 }
 
 footer {
     height: 40px;
-    background-color: #E2E2E2;
+    background-color: #E1E1E1;
+    margin-top: 82px;
 }
 
-footer li {
-    display: inline;
-    margin-right: 40px;
-    padding: 10px 20px;
+footer li a {
+    display: block;
+    height: 15px;
     color: #000000;
+    padding: 12px 25px 10px 25px;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    text-decoration: underline;
 }
 
 .copyright {
     float: right;
     margin-right: 40px;
+    padding: 12px 0 10px 25px;
 }
 
-h1 {
-    font-family: Arial, sans-serif;
-    font-size: 2.5em;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
