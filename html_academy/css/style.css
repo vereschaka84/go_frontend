@@ -1,7 +1,12 @@
+@font-face {
+    font-family: PT Sans; /* Имя шрифта */
+    src: url(../fonts/ptsans/PTS55F.ttf); /* Путь к файлу со шрифтом */
+}
+
 body {
 	font-size: 14px;
 	line-height: 24px;
-	font-family: "PT Sans Narrow", sans-serif;
+	font-family: "PT Sans", sans-serif;
 	color: #fff;
 	background: #111 url("../img/body-bg.jpg") no-repeat center top;
 }
