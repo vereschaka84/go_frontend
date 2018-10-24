@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+
+
+
+
+
+
+
+#slider-3 B {
+  font-size: 60px;
+  font-family: 'PT Serif', serif;
+}
+#slider-3 P {
+  font-size: 30px;
+}
+#slider-3 H2 {
+  text-align: center;
+}
+#slider-3 SPAN {
+  font-family: 'Open Sans', sans-serif;
+}
+#slider-3 .btn {
+  font-size: 30px;
+}
+#msg-box3-c .mbr-header .mbr-header__text {
+  text-align: center;
+}
+#msg-box3-c .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#msg-box3-c .lead P {
+  font-size: 24px;
+}
+#msg-box3-c .btn {
+  font-size: 24px;
+}
+#msg-box4-2 .mbr-section-title B {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 46px;
+}
+#msg-box4-2 small B {
+  font-size: 16px;
+}
+#msg-box4-2 .lead I {
+  font-size: 22px;
+}
+#content5-7 .mbr-section-title {
+  text-align: center;
+}
+#content5-7 .mbr-section-title B {
+  font-family: 'Open Sans', sans-serif;
+}
+#content5-7 P {
+  font-size: 30px;
+}
+#features1-4 H4 {
+  font-family: 'Open Sans', sans-serif;
+}
+#features1-4 P {
+  text-align: left;
+}
+#features1-5 H4 {
+  font-family: 'Open Sans', sans-serif;
+}
+#features1-6 H4 {
+  font-family: 'Open Sans', sans-serif;
+}
+#msg-box2-b P {
+  font-size: 25px;
+}
+#msg-box2-b B {
+  font-family: 'Open Sans', sans-serif;
+}
+#msg-box2-b .btn {
+  font-size: 25px;
+}
